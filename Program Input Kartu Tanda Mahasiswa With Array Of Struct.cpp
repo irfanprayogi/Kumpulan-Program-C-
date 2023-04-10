@@ -1,3 +1,7 @@
+//Created Program By 20220801379_Irfan Prayogi
+//Teknik Informatika
+//Program Struct Input Kartu Tanda Mahasiswa
+
 #include <iostream>
 using namespace std;
 
