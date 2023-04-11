@@ -32,7 +32,7 @@ int main() {
     if (gaji.jam_kerja > 7) {
         gaji.upah_lemburperjam = 15 * gaji.upah_perjam;
         gaji.upah_lembur = (gaji.jam_kerja - 7) * gaji.upah_lemburperjam;
-        gaji.gaji_lembur = gaji.upah_perjam * gaji.jam_kerja + gaji.upah_lembur;
+        gaji.gaji_lembur = gaji.upah_perjam * 7 + gaji.upah_lembur;
         cout << "\nNama : " << gaji.nama_karyawan;
         cout << "\nGaji Anda adalah Rp " << gaji.gaji_lembur;    
     }
