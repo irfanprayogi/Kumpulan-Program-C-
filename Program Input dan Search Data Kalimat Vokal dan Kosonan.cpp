@@ -1,6 +1,6 @@
 // Created Program By 20220801379_Irfan Prayogi
 // Teknik Informatika
-// Program kalimat Vokal dan Kosonan
+// Program Input dan Search Data Kalimat Vokal dan Kosonan
 
 #include <iostream>
 #include <cstring>
