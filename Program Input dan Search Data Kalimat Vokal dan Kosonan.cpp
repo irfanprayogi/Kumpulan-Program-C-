@@ -74,14 +74,12 @@ int main()
     cout << "Masukkan data yang akan Anda cari: ";
     cin >> data;
 
-    for (int i = 0; i < strlen(kalimat); i++)
+    for (int i = 0; i <= strlen(kalimat); i++)
     {
-        if (data == kalimat[i])
+        if (kalimat[i] == data)
         {
             ditemukan = 1;
         }
-        else
-            i = i + 1;
     }
 
     if (ditemukan == 1)
@@ -90,7 +88,7 @@ int main()
     }
     else
     {
-        cout << "\nData tidak... " << data;
+        cout << "\nData tidak ada... ";
     }
 
     return 0;
