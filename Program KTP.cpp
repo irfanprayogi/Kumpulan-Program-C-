@@ -1,3 +1,7 @@
+// Created Program By 20220801379_Irfan Prayogi
+// Teknik Informatika
+// Program Input Pointer KTP
+
 #include <iostream>
 #include <string>
 #include <cstring>
